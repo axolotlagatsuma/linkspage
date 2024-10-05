@@ -87,6 +87,6 @@ body {
     text-align: center;
     margin-top: 3%;
     color: #7dc4e4;
-    border: none; /* Ensure no border is applied */
-    box-shadow: none; /* Ensure no box-shadow is applied */
+    border: none;
+    box-shadow: none;
 }

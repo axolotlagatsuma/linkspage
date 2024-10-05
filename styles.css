@@ -2,20 +2,29 @@ body {
     background-color: #24273a;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .profilepic {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin: 0 auto;
     display: block;
-    margin-top: 4%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .nick {
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 1%;
+}
+
+.description {
+    font-size: 1.5em;
+    text-align: center
 }
 
 .button-container {
@@ -63,7 +72,7 @@ body {
 
 .links:hover {
     color: #fff;
-    background-color: #1A1A1A;
+    background-color: #45475a;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
@@ -71,4 +80,13 @@ body {
 .links:active {
     box-shadow: none;
     transform: translateY(0);
+}
+
+.footer {
+    background-color: #24273a;
+    text-align: center;
+    margin-top: 3%;
+    color: #7dc4e4;
+    border: none; /* Ensure no border is applied */
+    box-shadow: none; /* Ensure no box-shadow is applied */
 }
